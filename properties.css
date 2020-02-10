@@ -1,0 +1,31 @@
+.body{
+    width: fit-content;
+}
+.stylesheet{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+.form-group{
+    align-self: center;
+}
+.Insert , .DeleteAll{
+    display:inline-block;
+    /**other codes**/
+    }
+.table{
+    font-weight: normal;
+}

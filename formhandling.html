@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+
+        <title>Testing Function</title>
+    </head>
+    <script>
+        function myfunc() {
+            var birth = new Date('10,02,2001');
+            var current_date = new Date();
+            var curr_year = parseInt(current_date.getFullYear());
+            var birth_year = parseInt(birth.getFullYear());
+            var diff = curr_year - birth_year;
+            document.write("current" +(diff));
+        }
+    </script>
+    <body>
+        <button onclick="myfunc()">Click me</button> 
+    </body>
+</html>
